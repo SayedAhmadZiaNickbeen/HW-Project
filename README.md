@@ -1,5 +1,6 @@
 # HW-Project
 Home Work
+<!DOCTYP html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
