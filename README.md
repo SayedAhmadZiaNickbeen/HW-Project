@@ -4,10 +4,9 @@ Home Work
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        #main {
+ initial-scale=1.0">
+<style>
+    #main {
             text-align: center;
         }
 
@@ -21,26 +20,26 @@ Home Work
             display: block;
             margin: 0 auto;
         }
-    </style>
-    <title>Tribute Page 12</title>
+</style>
+<title>Tribute Page 12</title>
 </head>
 <body>
 
 <div id="main">
     <div id="title">
-        <h1>Dr. Norman Borlaug</h1>
+        <h1>HW-Project</h1>
     </div>
 
-    <div id="img-div">
-        <img id="image" src="path/to/your/image.jpg" alt="Dr. Norman Borlaug Image">
-        <p id="img-caption">Description of the image goes here.</p>
-    </div>
+<div id="img-div">
+        <img id="image" src="path/to/your/image.jpg" alt="HW-Project">
+        <p id="img-caption">HW-Project</p>
+</div>
 
-    <div id="tribute-info">
-        <p>Textual content describing the subject of the tribute page.</p>
-    </div>
+<div id="tribute-info">
+    <p>Textual content describing the subject of the tribute page.</p>
+</div>
 
-    <a id="tribute-link" href="https://www.example.com" target="_blank">Additional information about Dr. Norman Borlaug</a>
+<a id="tribute-link" href="https://www.example.com" target="_blank">Additional information about HW-Project</a>
 </div>
 
 </body>
