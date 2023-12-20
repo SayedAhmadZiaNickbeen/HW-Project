@@ -21,7 +21,7 @@ Home Work
             margin: 0 auto;
         }
     </style>
-    <title>Tribute Page</title>
+    <title>Tribute Page 12</title>
 </head>
 <body>
 
