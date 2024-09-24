@@ -20,7 +20,7 @@ Home Work
 <div id="img-div">
 <img id="image" src="https://www.winmoreacademy.com/wp-content/uploads/2019/02/42.png" alt="HW-Project">
         
-<p id="img-caption">HW-Project</p>
+<p id="img-caption">HW-qProject</p>
 
 </div>
 <div id="tribute-info">
