@@ -3,9 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Herat Regional Reference Laboratory</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    ajkfjkldsjflsdjfjlskdafjlkj
+    <header>
+        <div class="logo">
+            <h1>Herat Regional Reference Laboratory</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <h2>Welcome to Herat Regional Reference Laboratory</h2>
+        <p>We provide comprehensive testing services with cutting-edge technology in various fields.</p>
+    </section>
+
+    <section id="departments" class="departments">
+        <h2>Our Departments</h2>
+        <div class="department-list">
+            <div class="department" onclick="showDepartmentInfo('Microbiology')">
+                <h3>Microbiology</h3>
+                <p>Specializing in the identification of microorganisms.</p>
+            </div>
+            <div class="department" onclick="showDepartmentInfo('TB')">
+                <h3>TB</h3>
+                <p>Advanced testing for Tuberculosis.</p>
+            </div>
+            <div class="department" onclick="showDepartmentInfo('PCR')">
+                <h3>PCR</h3>
+                <p>Accurate molecular diagnostic testing.</p>
+            </div>
+            <div class="department" onclick="showDepartmentInfo('ELISA')">
+                <h3>ELISA</h3>
+                <p>Enzyme-linked immunosorbent assay (ELISA) testing.</p>
+            </div>
+        </div>
+        <div id="department-info"></div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Herat Regional Reference Laboratory is a state-of-the-art laboratory providing comprehensive diagnostic services. With advanced technology and expert staff, we ensure accurate and reliable results across various fields including microbiology, TB diagnostics, PCR, and ELISA.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Herat Regional Reference Laboratory. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
